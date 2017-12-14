@@ -1,0 +1,26 @@
+{
+  "name": "vb-node-mentoring-swagger",
+  "version": "0.0.1",
+  "private": false,
+  "description": "New Swagger API Project",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.12.3",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.4",
+    "swagger-express-middleware": "^1.0.0-alpha.12",
+    "swagger-express-mw": "^0.1.0",
+    "swagger-tools": "^0.10.3"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "swagger project test"
+  }
+}
